@@ -1,0 +1,41 @@
+name: maintainxai
+description: "A professional predictive maintenance system powered by LightGBM metrics."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The primary library for the performance and health trend graphs
+  fl_chart: ^0.70.0
+
+  # Provides modern, tech-focused typography (Inter/Roboto)
+  google_fonts: ^6.2.1
+
+  # For navigation and state icons (industrial/manufacturing icons)
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # If you decide to add a physical logo image, uncomment the following:
+  # assets:
+  #   - assets/images/logo.png
+
+  # Example of adding custom fonts if you don't want to use Google Fonts online:
+  # fonts:
+  #   - family: TechFont
+  #     fonts:
+  #       - asset: assets/fonts/Tech-Regular.ttf
+  #       - asset: assets/fonts/Tech-Bold.ttf
+  #         weight: 700
